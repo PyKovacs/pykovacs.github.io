@@ -2,17 +2,14 @@
 body {
     color: rgb(38, 46, 58);
     background: rgb(38, 46, 58);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     text-align: left;
 }
 
 .envelope {
     border-radius: 1.2rem;
-    /* border-top-right-radius: 1.5rem;
-    border-bottom-left-radius: 1.5rem; */
 }
 .container {
-    /* background-color: #32373B; */
     background-color: whitesmoke;
     margin: 20px auto;
     padding: 5px 0px;
@@ -24,6 +21,7 @@ body {
 /* HEADER */
 header {
     padding: 0px;
+    margin-bottom: 120px;
 }
 
 header img {
@@ -49,17 +47,29 @@ header img:hover, header img:active {
     margin-right: 0px;
     border-top-left-radius: 1.2rem;
     border-bottom-left-radius: 1.2rem;
-    grid-column: 3;
-    grid-row: 1/3;
     text-align: left;
 }
 
 .contact {
-    grid-column: 1;
-    grid-row: 2;
-    font-size: clamp(12px, 3vw, 15px);
-    padding: 5px;
-    margin: 5px;
+    padding: 10px 15px;
+    float: right;
+    background-color: whitesmoke;
+    color: #3891a7;
+    text-align: right;
+    margin-right: -15px;
+    margin-left: auto;
+    border-top-left-radius: 1.2rem;
+    border-bottom-left-radius: 1.2rem;
+    border: 3px solid #3891a7;
+    border-right: none;
+}
+
+.contact p {
+    margin: 0px;
+}
+
+.contact p a {
+    color: #3891a7;
 }
 
 h1 {
@@ -73,8 +83,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Raleway', sans-serif;
-    text-decoration-line: underline;
+    font-family:  'Comfortaa', cursive;
     font-size: clamp(20px, 7vw, 28px);
     margin: 0;
     color: rgb(56, 145, 167);
@@ -106,13 +115,17 @@ button.link {
     color: whitesmoke;
     cursor: pointer;
     border:none; 
-    font-family: 'Comfortaa', cursive;
     font-size: clamp(12px, 5vw, 18px);
     border: 2px solid rgb(56, 145, 167);
     border-left: none;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     padding: 5px 15px;
+}
+
+button.certs {
+    border-radius: 10px;
+    margin: 5px 5px;
 }
 
 button.skill {
@@ -154,7 +167,6 @@ button.skill {
     font-size: 12px;
     color: rgb(173, 173, 173);
     margin-top: 15px;
-    display: block;
 }
 
 .detailsBox {
@@ -213,10 +225,5 @@ button.skill {
         border-bottom-left-radius: 1.2rem;
         grid-column: 2;
         grid-row: 1/3;
-    }
-    
-    .contact {
-        grid-column: 1;
-        grid-row: 2;
     }
 }

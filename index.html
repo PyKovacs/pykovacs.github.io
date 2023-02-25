@@ -8,41 +8,41 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Raleway:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Ubuntu&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="container envelope">
         <header>
-
             <section  class="intro">
                 <h1>David Kovacs</h1>
+
                 <a href="./images/2.jpg" target="_blank">
                     <img class="profilephoto" src="./images/2.jpg" alt="David Face">
                 </a>
+
                 <p>
                     Currently working as SA&HM Engineer mainly focusing on backend development of 
                     monitoring tool in Python. Some secondary engineering tasks include ELK, Ansible, 
                     CICD, Linux administration. Passion for IT Security resulted in CompTIA Security+ 
                     certification achieved in 2021.
                 </p>
-                <p class="note">
-                    <em>To find out more, click on items below you are interested in...</em>
-                </p>
 
-            </section>
-            
-            <section class="contact">
-                <p>
-                    david.kovacs.1991@gmail.com | 
-                    +421 918 964 693 | 
-                    Kosice
-                </p>
+                <div class="contact">
+                    <p>
+                        <a href="mailto:david.kovacs.1991@gmail.com">
+                        david.kovacs.1991@gmail.com <br>
+                    </a>
+                        +421 918 964 693 <br>
+                        Kosice <br>
+                    </p>
+                </div>
             </section>
         </header>
-
         <main>
-            
+            <p class="note">
+                <em>Click on items to expand details.</em>
+            </p>
 
             <section class="work_experience">
                 <h2>
@@ -72,20 +72,28 @@
                 <h2>
                     Certifications
                 </h2>
-                <ul class="main_list">
-                    <li>
-                        <button class="link" id="pcepCert_button" onclick="showOrHide('pcepCert')">PCEP</button>
-                        <p class="detailsBox" id='pcepCert'>Here are some details regarding the above item.</p>
-                    </li>
-                    <li>
-                        <button class="link" id="secCert_button" onclick="showOrHide('secCert')">Security+</button>
-                        <p class="detailsBox" id='secCert'>Here are some details regarding the above item.</p>
-                    </li>
-                    <li>
-                        <button class="link" id="awsCert_button" onclick="showOrHide('awsCert')">AWS CTE</button>
-                        <p class="detailsBox" id='awsCert'>Here are some details regarding the above item.</p>
-                    </li>
-                </ul>
+
+                        <button class="link certs" id="pcepCert_button" onclick="showOrHide('pcepCert')">
+                            PCEP
+                        </button>
+                        <p class="detailsBox" id='pcepCert'>
+                            Here are some details regarding the above item.
+                        </p>
+
+                        <button class="link certs" id="secCert_button" onclick="showOrHide('secCert')">
+                            Sec+
+                        </button>
+                        <p class="detailsBox" id='secCert'>
+                            Here are some details regarding the above item.
+                        </p>
+
+                        <button class="link certs" id="awsCert_button" onclick="showOrHide('awsCert')">
+                            AWS CTE
+                        </button>
+                        <p class="detailsBox" id='awsCert'>
+                            Here are some details regarding the above item.
+                        </p>
+
             </section>
 
             <section class="education">
