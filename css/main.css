@@ -12,7 +12,8 @@ body {
     border-bottom-left-radius: 1.5rem; */
 }
 .container {
-    background-color: #32373B;
+    /* background-color: #32373B; */
+    background-color: whitesmoke;
     margin: 20px auto;
     padding: 5px 0px;
     max-width: 1000px;
