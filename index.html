@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAV_K.IT</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Raleway:wght@400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container envelope">
+        <header>
+
+            <section  class="intro">
+                <h1>David Kovacs</h1>
+                <p>
+                    Currently working as SA&HM Engineer mainly focusing on backend development of 
+                    monitoring tool in Python. Some secondary engineering tasks include ELK, Ansible, 
+                    CICD, Linux administration. Passion for IT Security resulted in CompTIA Security+ 
+                    certification achieved in 2021.
+                </p>
+            </section>
+            <a href="./images/2.jpg" target="_blank">
+                <img class="profilephoto envelope" src="./images/2.jpg" alt="David Face">
+            </a>
+            <section class="contact">
+                <p>
+                    +421 918 964 693<br>
+                    david.kovacs.1991@gmail.com<br>
+                    Kosice, Slovakia<br>
+                </p>
+            </section>
+        </header>
+
+        <main>
+            <p class="note"><em>Click on items to see more details...</em></p>
+            
+
+            <section class="work_experience">
+                <h2>
+                    IT Work Experience
+                </h2>
+                <ul class="main_list">
+                    <li>
+                        <button class="link" id='sahmengineerPosition_button' onclick="showOrHide('sahmengineerPosition')">SA&HM Engineer</button>
+                        <p class="detailsBox" id='sahmengineerPosition'>Here are some details regarding the above item.</p>
+                    </li>
+                    <li>
+                        <button class="link" id="seniorengineerPosition_button" onclick="showOrHide('seniorengineerPosition')">Senior ICT Engineer</button>
+                        <p class="detailsBox" id='seniorengineerPosition'>Here are some details regarding the above item.</p>
+                    </li>
+                    <li>
+                        <button class="link" id="engineerPosition_button" onclick="showOrHide('engineerPosition')">ICT Engineer</button>
+                        <p class="detailsBox" id='engineerPosition'>Here are some details regarding the above item.</p>
+                    </li>
+                    <li>
+                        <button class="link" id="adminPosition_button" onclick="showOrHide('adminPosition')">ICT Administrator</button>
+                        <p class="detailsBox" id='adminPosition'>Here are some details regarding the above item.</p>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="certification">
+                <h2>
+                    Certifications
+                </h2>
+                <ul class="main_list">
+                    <li>
+                        <button class="link" id="pcepCert_button" onclick="showOrHide('pcepCert')">PCEP</button>
+                        <p class="detailsBox" id='pcepCert'>Here are some details regarding the above item.</p>
+                    </li>
+                    <li>
+                        <button class="link" id="secCert_button" onclick="showOrHide('secCert')">Security+</button>
+                        <p class="detailsBox" id='secCert'>Here are some details regarding the above item.</p>
+                    </li>
+                    <li>
+                        <button class="link" id="awsCert_button" onclick="showOrHide('awsCert')">AWS CTE</button>
+                        <p class="detailsBox" id='awsCert'>Here are some details regarding the above item.</p>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="education">
+                <h2>
+                    Education
+                </h2>
+                <ul class="main_list">
+                    <li>
+                        <button class="link" id="edu_button" onclick="showOrHide('edu')">Bachelor in Philosophy</button>
+                        <p class="detailsBox" id='edu'>Here are some details regarding the above item.</p>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="skills">
+                <h2>
+                    Tech skills
+                </h2>
+                
+                <button class="skill link" id="python_button" onclick="showOrHide('python')">
+                    Python
+                </button>
+                <div class="detailsBox" id='python'>
+                    <div class="skillLevel">
+                        <img src="./images/skill_levels/intermediate.png" alt="intermediate">
+                    </div>
+                    Here are some details regarding the above item.
+                </div>
+                
+                <button class="skill link" id="discovery_button" onclick="showOrHide('discovery')">
+                    Discovery
+                </button>
+                <div class="detailsBox" id='discovery'>
+                    <div class="skillLevel">
+                        <img src="./images/skill_levels/advanced.png" alt="advanced">
+                    </div>
+                    Here are some details regarding the above item.
+                </div>
+                
+                <button class="skill link" id="scripting_button" onclick="showOrHide('scripting')">
+                    Scripting
+                </button>
+                <div class="detailsBox" id='scripting'>
+                    <div class="skillLevel">
+                        <img src="./images/skill_levels/intermediate.png" alt="intermediate">
+                    </div>
+                    Here are some details regarding the above item.
+                </div>
+                
+                <button class="skill link" id="monitoring_button" onclick="showOrHide('monitoring')">
+                    Monitoring
+                </button>
+                <div class="detailsBox" id='monitoring'>
+                    <div class="skillLevel">
+                        <img src="./images/skill_levels/intermediate.png" alt="intermediate">
+                    </div>
+                    Here are some details regarding the above item.
+                </div>
+                
+                <button class="skill link" id="linux_button" onclick="showOrHide('linux')">
+                    Linux
+                </button>
+                <div class="detailsBox" id='linux'>
+                    <div class="skillLevel">
+                        <img src="./images/skill_levels/intermediate.png" alt="intermediate">
+                    </div>
+                    Here are some details regarding the above item.
+                </div>
+                
+                <button class="skill link" id="ELK_button" onclick="showOrHide('ELK')">
+                    ELK
+                </button>
+                <div class="detailsBox" id='ELK'>
+                    <div class="skillLevel">
+                        <img src="./images/skill_levels/novice.png" alt="novice">
+                    </div>
+                    Here are some details regarding the above item.
+                </div>
+                
+                <button class="skill link" id="others_button" onclick="showOrHide('others')">
+                    Others
+                </button>
+                <div class="detailsBox" id='others'>
+                    Here are some details regarding the above item.
+                </div>
+                
+                <h2>
+                    Soft skills
+                </h2>
+
+                <button class="skill link" id="adaptability_button" onclick="showOrHide('adaptability')">
+                    Adaptability
+                </button>
+                <p class="detailsBox" id='adaptability'>Here are some details regarding the above item.</p>
+
+                <button class="skill link" id="communication_button" onclick="showOrHide('communication')">
+                    Communication
+                </button>
+                <p class="detailsBox" id='communication'>Here are some details regarding the above item.</p>
+
+                <button class="skill link" id="responsibility_button" onclick="showOrHide('responsibility')">
+                    Responsibility
+                </button>
+                <p class="detailsBox" id='responsibility'>Here are some details regarding the above item.</p>
+
+            </section>
+
+            <section class="lang">
+                <h2>
+                    Languages
+                </h2>
+                <ul>
+                    <li>English - C1</li>
+                    <li>German - A1</li>
+                </ul>
+            </section>
+
+        </main>
+        <footer>
+            
+        </footer>
+        <script src="./js/index.js"></script>
+    </div>
+</body>
+
+</html>
