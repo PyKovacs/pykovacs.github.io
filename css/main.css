@@ -12,9 +12,9 @@ body {
     border-bottom-left-radius: 1.5rem; */
 }
 .container {
-    background-color: white;
+    background-color: #32373B;
     margin: 20px auto;
-    padding: 10px 0px;
+    padding: 5px 0px;
     max-width: 1000px;
     min-width: 220px;
     font-size: clamp(12px, 5vw, 18px);
@@ -45,12 +45,10 @@ header img:hover, header img:active {
 }
 
 .intro {
-    background-color: rgb(56, 145, 167);
-    /* border: 1px solid #001d3dff; */
+    background-color: #3891a7;
     padding: 15px;
     color: whitesmoke;
-    border-bottom: none;
-    margin: 5px;
+    margin: 20px;
     margin-right: 0px;
     border-top-left-radius: 1.2rem;
     border-bottom-left-radius: 1.2rem;
@@ -103,7 +101,7 @@ ul {
 }
 
 li {
-    margin: 15px 0px;
+    margin: 15px -10px;
 }
 
 button.link {
@@ -113,8 +111,10 @@ button.link {
     font-family: 'Comfortaa', cursive;
     font-size: clamp(12px, 5vw, 18px);
     border: 2px solid rgb(56, 145, 167);
-    border-radius: 10px;
-    padding: 5px;
+    border-left: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 5px 15px;
 }
 
 button.skill {
@@ -127,7 +127,7 @@ button.skill {
 }
 
 .link:hover, .link:active {
-    background-color: rgb(88, 213, 245);
+    background-color: #B5FFE1;
     color: black;
 }
 
@@ -135,9 +135,15 @@ button.skill {
     margin-top: 25px;
 }
 
+.skillLevel {
+    border-bottom: 2px solid white;
+    max-width: 150px;
+    color: rgb(137, 225, 247);
+    margin-bottom: 20px;
+}
+
 .skillLevel img {
     width: clamp(20px, 30vw, 120px);
-    border-bottom: 2px solid white;
 }
 
 .python_button {
