@@ -1,7 +1,7 @@
 /* GENERAL */
 body {
     color: rgb(38, 46, 58);
-    background: rgb(38, 46, 58);
+    background: #1F2232;
     font-family: 'Ubuntu', sans-serif;
     text-align: left;
 }
@@ -10,7 +10,7 @@ body {
     border-radius: 1.2rem;
 }
 .container {
-    background-color: whitesmoke;
+    background-color: #D7DAE5;
     margin: 20px auto;
     padding: 5px 0px;
     max-width: 1000px;
@@ -42,18 +42,19 @@ header img:hover, header img:active {
 .intro {
     background-color: #3891a7;
     padding: 15px;
-    color: whitesmoke;
+    color: #D7DAE5;
     margin: 20px;
     margin-right: 0px;
     border-top-left-radius: 1.2rem;
     border-bottom-left-radius: 1.2rem;
     text-align: left;
+    line-height: 1.5rem;
 }
 
 .contact {
     padding: 10px 15px;
     float: right;
-    background-color: whitesmoke;
+    background-color: #D7DAE5;
     color: #3891a7;
     text-align: right;
     margin-right: -15px;
@@ -77,16 +78,16 @@ h1 {
     font-size: clamp(1.75rem, 10vw, 3.5rem);
     text-shadow: 2px 2px 3px black;
     text-align: left;
-    color: #ffd60aff;
+    color: #F7F06D;
     margin: 10px 0px 20px 0px;
-    border-bottom: 2px solid whitesmoke;
+    border-bottom: 2px solid #D7DAE5;
 }
 
 h2 {
     font-family:  'Comfortaa', cursive;
     font-size: clamp(20px, 7vw, 28px);
     margin: 0;
-    color: rgb(56, 145, 167);
+    color: #1F2232;
 }
 
 /* MAIN */
@@ -97,57 +98,58 @@ main {
 main section {
     border-bottom-left-radius: 1rem;
     margin-top: 1.5rem;
-    margin-bottom: 3.5rem;
+    margin-bottom: 2rem;
 
 }
 
 ul {
     padding-inline-start: 0px;
     list-style-type: none;
+    margin-top: 0px;
 }
 
 li {
-    margin: 15px -10px;
+    margin: 5px -15px;
+}
+
+button {
+    background-color: rgb(56, 145, 167);
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid rgb(56, 145, 167);
+    margin: 5px 5px;
+    padding: 5px 15px;
+    display: inline-block;
+    font-size: clamp(12px, 4vw, 18px);
+    -webkit-transition: background-color 0.5s ease;
+    -moz-transition: background-color 0.5s ease;
+    -o-transition: background-color 0.5s ease;
+    transition: background-color 0.5s ease;
 }
 
 button.link {
-    background-color: rgb(56, 145, 167);
-    color: whitesmoke;
-    cursor: pointer;
-    border:none; 
-    font-size: clamp(12px, 5vw, 18px);
-    border: 2px solid rgb(56, 145, 167);
+    color: #D7DAE5;
     border-left: none;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    padding: 5px 15px;
-}
-
-button.certs {
-    border-radius: 10px;
-    margin: 5px 5px;
-}
-
-button.skill {
-    border-radius: 50%;
-    padding: 10px 15px;
-    margin: 10px;
-    display: inline-block;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
     font-size: clamp(12px, 5vw, 18px);
-
+    -webkit-transition: color 0.5s ease;
+    -moz-transition: color 0.5s ease;
+    -o-transition: color 0.5s ease;
+    transition: color 0.5s ease;
+    -webkit-transition: background-color 0.5s ease;
+    -moz-transition: background-color 0.5s ease;
+    -o-transition: background-color 0.5s ease;
+    transition: background-color 0.5s ease;
 }
 
-.link:hover, .link:active {
+button:hover, button:active {
     background-color: #B5FFE1;
     color: black;
 }
 
-.skills h2 {
-    margin-top: 25px;
-}
-
 .skillLevel {
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #D7DAE5;
     max-width: 150px;
     color: rgb(137, 225, 247);
     margin-bottom: 20px;
@@ -157,9 +159,6 @@ button.skill {
     width: clamp(20px, 30vw, 120px);
 }
 
-.python_button {
-    border-color: white;
-}
 
 /* MISC */
 
@@ -172,10 +171,22 @@ button.skill {
 .detailsBox {
     display: none;
     background-color: rgb(56, 145, 167);
-    color: whitesmoke;
+    color: #D7DAE5;
     padding: 30px;
     border-radius: 15px;
+    margin: 10px 20px;
+    margin-top: -5px;
+}
 
+
+.skills .detailsBox, .certification .detailsBox {
+    margin: 10px;
+    margin-top: 5px;
+}
+
+.icon {
+    width: clamp(35px, 10vw, 50px);
+    margin-top: 5px;
 }
 
 
@@ -211,14 +222,14 @@ button.skill {
     }
     
     header img:hover, header img:active {
-        border: 3px solid #ffc300ff;
+        border: 3px solid #F7F06D;
     }
     
     .intro {
-        background-color: rgb(56, 145, 167);
+        background-color: #3891a7;
         /* border: 1px solid #001d3dff; */
         padding: 20px 20px;
-        color: whitesmoke;
+        color: #D7DAE5;
         border-bottom: none;
         margin-right: 0px;
         border-top-left-radius: 1.2rem;

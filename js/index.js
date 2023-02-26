@@ -5,11 +5,12 @@ function showOrHide(elementId) {
     
     if (window.getComputedStyle(element, null).display == "none") {
         document.getElementById(elementId).style.display = "block";
-        document.getElementById(elementButton).style.backgroundColor = "#ffd60aff";
+        document.getElementById(elementId).style.opacity = "100%";
+        document.getElementById(elementButton).style.backgroundColor = "#F7F06D";
         document.getElementById(elementButton).style.color = "black"
     }
     else {
-        document.getElementById(elementId).style.display = "none";
         document.getElementById(elementButton).removeAttribute("style")
+        document.getElementById(elementId).removeAttribute("style")
     }
 }
