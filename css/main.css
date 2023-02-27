@@ -1,7 +1,15 @@
+/* CSS HEX
+--slate-gray: #6C798Cff;
+--coffee: #5E4B34ff;
+--timberwolf: #D8D9D3ff;
+--cadet-gray: #93A0B2ff;
+
+/*
+
 /* GENERAL */
 body {
-    color: rgb(38, 46, 58);
-    background: #1F2232;
+    color: #EFF7FF;
+    background: #DCEDFF;
     font-family: 'Ubuntu', sans-serif;
     text-align: left;
 }
@@ -10,7 +18,7 @@ body {
     border-radius: 1.2rem;
 }
 .container {
-    background-color: #D7DAE5;
+    background-color: #1b2530;
     margin: 20px auto;
     padding: 5px 0px;
     max-width: 1000px;
@@ -26,7 +34,7 @@ header {
 
 header img {
     width: 120px;
-    border: 3px solid rgb(56, 145, 167);
+    border: 3px solid #2E4052;
     border-left: none;
     border-bottom-right-radius: 1.2rem;
     border-top-right-radius: 1.2rem;
@@ -34,12 +42,10 @@ header img {
     float: left;
 }
 
-
-
 .intro {
-    background-color: #3891a7;
+    background-color: #2E4052;
     padding: 15px;
-    color: #D7DAE5;
+    color: #DCEDFF;
     margin: 20px;
     margin-right: 0px;
     border-top-left-radius: 1.2rem;
@@ -55,14 +61,14 @@ header img {
 .contact {
     padding: 10px 15px;
     float: right;
-    background-color: #D7DAE5;
-    color: #3891a7;
+    background-color: #c2f73b;
+    color: #1b2530;
     text-align: right;
     margin-right: -15px;
     margin-left: auto;
     border-top-left-radius: 1.2rem;
     border-bottom-left-radius: 1.2rem;
-    border: 3px solid #3891a7;
+    border: 3px solid #2E4052;
     border-right: none;
     box-shadow: 2px 2px 3px black;
 }
@@ -72,7 +78,7 @@ header img {
 }
 
 .contact p a {
-    color: #3891a7;
+    color: #1b2530;
 }
 
 h1 {
@@ -80,16 +86,16 @@ h1 {
     font-size: clamp(1.75rem, 10vw, 3.5rem);
     text-shadow: 2px 2px 3px black;
     text-align: left;
-    color: #F7F06D;
+    color: #F18F01;
     margin: 10px 0px 20px 0px;
-    border-bottom: 2px solid #D7DAE5;
+    border-bottom: 2px solid #DCEDFF;
 }
 
 h2 {
     font-family:  'Comfortaa', cursive;
     font-size: clamp(20px, 7vw, 28px);
     margin: 0;
-    color: #1F2232;
+    color: #DCEDFF;
 }
 
 /* MAIN */
@@ -119,7 +125,9 @@ li {
 }
 
 button {
-    background-color: #3891a7;
+    background-color: #2E4052;
+    font-family: 'Ubuntu', sans-serif;
+    color: #c2f73b;
     cursor: pointer;
     border-radius: 10px;
     border: none;
@@ -152,9 +160,9 @@ button.link {
 
 
 .skillLevel {
-    border-bottom: 2px solid #D7DAE5;
+    border-bottom: 2px solid #F18F01;
     max-width: 150px;
-    color: rgb(137, 225, 247);
+    color: #F18F01;
     margin-bottom: 20px;
 }
 
@@ -173,20 +181,19 @@ button.link {
 
 .detailsBox {
     display: none;
-    background-color: #1F2232;
-    color: #D7DAE5;
+    background-color: #1b2530;
+    color: #EFF7FF;
     padding: 30px;
     border-radius: 15px;
-    margin: 10px 20px;
-    margin-top: -5px;
+    margin: 5px 20px;
+    border: 2px solid #2E4052;
     box-shadow: 2px 2px 3px black;
 }
 
-
-.skills .detailsBox, .certification .detailsBox {
-    margin: 10px;
-    margin-top: 5px;
+.certification .detailsBox, .skills .detailsBox{
+    margin: 5px 0px;
 }
+
 
 .icon {
     width: clamp(35px, 10vw, 50px);
@@ -238,7 +245,7 @@ a {
     
     .intro {
         padding: 20px 20px;
-        color: #D7DAE5;
+        color: ##DCEDFF;
         border-bottom: none;
         margin-right: 0px;
         border-top-left-radius: 1.2rem;
@@ -252,12 +259,12 @@ a {
 /* USE HOVER STYLES ONLY ON NON-TOUCH DEVICES */
 @media (hover: hover) and (pointer: fine) {
     header img:hover, header img:active {
-        border: 3px solid #4ec7e6;
+        border: 3px solid #3f5870;
         border-left: none;
     }
 
     button:hover, button:active {
-        background-color: #4ec7e6;
+        background-color: #3f5870;
         box-shadow: 5px 5px 5px black;
     }
     
