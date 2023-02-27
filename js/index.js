@@ -5,9 +5,9 @@ function showOrHide(elementId) {
     
     if (window.getComputedStyle(element, null).display == "none") {
         document.getElementById(elementId).style.display = "block";
-        document.getElementById(elementId).style.opacity = "100%";
-        document.getElementById(elementButton).style.backgroundColor = "#F7F06D";
+        document.getElementById(elementButton).style.backgroundColor = "#2c6979";
         document.getElementById(elementButton).style.color = "black"
+        document.getElementById(elementButton).style.boxShadow = "1px 1px 2px black";
     }
     else {
         document.getElementById(elementButton).removeAttribute("style")

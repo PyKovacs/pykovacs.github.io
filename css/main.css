@@ -35,7 +35,7 @@ header img {
 }
 
 header img:hover, header img:active {
-    border: 3px solid rgb(88, 213, 245);
+    border: 3px solid #58d5f5;
     border-left: none;
 }
 
@@ -48,6 +48,7 @@ header img:hover, header img:active {
     border-top-left-radius: 1.2rem;
     border-bottom-left-radius: 1.2rem;
     text-align: left;
+    box-shadow: 2px 2px 3px black;
 }
 
 .intro p {
@@ -66,6 +67,7 @@ header img:hover, header img:active {
     border-bottom-left-radius: 1.2rem;
     border: 3px solid #3891a7;
     border-right: none;
+    box-shadow: 2px 2px 3px black;
 }
 
 .contact p {
@@ -100,8 +102,8 @@ main {
 }
 main section {
     border-bottom-left-radius: 1rem;
-    margin-top: 1.5rem;
-    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
 
 }
 
@@ -120,25 +122,23 @@ li {
 }
 
 button {
-    background-color: rgb(56, 145, 167);
+    background-color: #3891a7;
     cursor: pointer;
     border-radius: 10px;
-    border: 2px solid rgb(56, 145, 167);
+    border: none;
     margin: 5px 5px;
     padding: 5px 15px;
     display: inline-block;
     font-size: clamp(12px, 4vw, 18px);
-    -webkit-transition: background-color 0.5s ease;
-    -moz-transition: background-color 0.5s ease;
-    -o-transition: background-color 0.5s ease;
-    transition: background-color 0.5s ease;
-    box-shadow: 2px 2px 3px black;
+    -webkit-transition: background-color 0.5s ease, box-shadow 0.2s ease;
+    -moz-transition: background-color 0.5s ease, box-shadow 0.2s ease;
+    -o-transition: background-color 0.5s ease, box-shadow 0.2s ease;
+    transition: background-color 0.5s ease, box-shadow 0.2s ease;
+    box-shadow: 3px 3px 4px black;
 }
 
 button.link {
     color: #D7DAE5;
-    background-color: rgb(56, 145, 167); 
-    border-left: none;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     font-size: clamp(12px, 5vw, 18px);
@@ -146,10 +146,10 @@ button.link {
     -moz-transition: color 0.5s ease;
     -o-transition: color 0.5s ease;
     transition: color 0.5s ease;
-    -webkit-transition: background-color 0.5s ease;
-    -moz-transition: background-color 0.5s ease;
-    -o-transition: background-color 0.5s ease;
-    transition: background-color 0.5s ease;
+    -webkit-transition: background-color 0.5s ease, box-shadow 0.2s ease;
+    -moz-transition: background-color 0.5s ease, box-shadow 0.2s ease;
+    -o-transition: background-color 0.5s ease, box-shadow 0.2s ease;
+    transition: background-color 0.5s ease, box-shadow 0.2s ease;
 }
 
 button:hover, button:active {
