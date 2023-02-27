@@ -48,6 +48,9 @@ header img:hover, header img:active {
     border-top-left-radius: 1.2rem;
     border-bottom-left-radius: 1.2rem;
     text-align: left;
+}
+
+.intro p {
     line-height: 1.5rem;
 }
 
@@ -110,6 +113,10 @@ ul {
 
 li {
     margin: 5px -15px;
+}
+
+.lang ul li {
+    margin: 5px 20px;
 }
 
 button {
