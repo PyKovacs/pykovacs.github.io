@@ -132,10 +132,12 @@ button {
     -moz-transition: background-color 0.5s ease;
     -o-transition: background-color 0.5s ease;
     transition: background-color 0.5s ease;
+    box-shadow: 2px 2px 3px black;
 }
 
 button.link {
     color: #D7DAE5;
+    background-color: rgb(56, 145, 167); 
     border-left: none;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -177,12 +179,13 @@ button:hover, button:active {
 
 .detailsBox {
     display: none;
-    background-color: rgb(56, 145, 167);
+    background-color: #1F2232;
     color: #D7DAE5;
     padding: 30px;
     border-radius: 15px;
     margin: 10px 20px;
     margin-top: -5px;
+    box-shadow: 2px 2px 3px black;
 }
 
 
