@@ -130,15 +130,14 @@ button {
     padding: 5px 15px;
     display: inline-block;
     font-size: clamp(12px, 4vw, 18px);
-    -webkit-transition: background-color 0.5s ease-out, box-shadow 0.2s ease-out;
-    -moz-transition: background-color 0.5s ease-out, box-shadow 0.2s ease-out;
-    -o-transition: background-color 0.5s ease-out, box-shadow 0.2s ease-out;
-    transition: background-color 0.5s ease-out, box-shadow 0.2s ease-out;
+    -webkit-transition: background-color 0.2s ease-out, box-shadow 0.2s ease-out;
+    -moz-transition: background-color 0.2s ease-out, box-shadow 0.2s ease-out;
+    -o-transition: background-color 0.2s ease-out, box-shadow 0.2s ease-out;
+    transition: background-color 0.2s ease-out, box-shadow 0.2s ease-out;
     box-shadow: 3px 3px 4px black;
 }
 
 button.link {
-    color: #D7DAE5;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     font-size: clamp(12px, 5vw, 18px);
@@ -146,15 +145,15 @@ button.link {
     -moz-transition: color 0.5s ease;
     -o-transition: color 0.5s ease;
     transition: color 0.5s ease;
-    -webkit-transition: background-color 0.5s ease-out, box-shadow 0.2s ease-out, color 0.5s ease-out;
-    -moz-transition: background-color 0.5s ease-out, box-shadow 0.2s ease-out, color 0.5s ease-out;
-    -o-transition: background-color 0.5s ease-out, box-shadow 0.2s ease-out, color 0.5s ease-out;
-    transition: background-color 0.5s ease-out, box-shadow 0.2s ease-out, color 0.5s ease-out;
+    -webkit-transition: background-color 0.2s ease-out, box-shadow 0.2s ease-out;
+    -moz-transition: background-color 0.2s ease-out, box-shadow 0.2s ease-out;
+    -o-transition: background-color 0.2s ease-out, box-shadow 0.2s ease-out;
+    transition: background-color 0.2s ease-out, box-shadow 0.2s ease-out;
 }
 
 button:hover, button:active {
-    background-color: #B5FFE1;
-    color: black;
+    background-color: #4ec7e6;
+    box-shadow: 5px 5px 5px black;
 }
 
 .skillLevel {
