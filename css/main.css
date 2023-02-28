@@ -1,9 +1,9 @@
 /* CSS HEX
---slate-gray: #6C798Cff;
---coffee: #5E4B34ff;
---timberwolf: #D8D9D3ff;
---cadet-gray: #93A0B2ff;
-
+--lime: #c3f73aff;
+--gunmetal: #1b2530ff;
+--charcoal: #2e4052ff;
+--alice-blue: #dcedffff;
+--carrot-orange: #f18f01ff;
 /*
 
 /* GENERAL */
@@ -12,6 +12,7 @@ body {
     background: #DCEDFF;
     font-family: 'Ubuntu', sans-serif;
     text-align: left;
+    margin: 0px;
 }
 
 .envelope {
@@ -19,7 +20,7 @@ body {
 }
 .container {
     background-color: #1b2530;
-    margin: 20px auto;
+    margin: 0px auto;
     padding: 5px 0px;
     max-width: 1000px;
     min-width: 220px;
@@ -106,7 +107,7 @@ main {
 main section {
     border-bottom-left-radius: 1rem;
     margin-top: 1rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 3.5rem;
 
 }
 
@@ -117,7 +118,7 @@ ul {
 }
 
 li {
-    margin: 5px -15px;
+    margin: 5px -20px;
 }
 
 .lang ul li {
@@ -131,7 +132,7 @@ button {
     cursor: pointer;
     border-radius: 10px;
     border: none;
-    margin: 5px 5px;
+    margin: 10px 10px;
     padding: 5px 15px;
     display: inline-block;
     font-size: clamp(12px, 4vw, 18px);
