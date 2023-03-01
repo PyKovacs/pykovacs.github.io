@@ -111,19 +111,17 @@ main section {
 
 }
 
-ul {
+.main_list {
     padding-inline-start: 0px;
     list-style-type: none;
     margin-top: 0px;
 }
 
-li {
+.main_list li {
     margin: 5px -20px;
 }
 
-.lang ul li {
-    margin: 10px 20px;
-}
+
 
 button {
     background-color: #2E4052;
@@ -168,7 +166,7 @@ button.link {
 }
 
 .skillLevel img {
-    width: clamp(20px, 30vw, 120px);
+    width: clamp(80px, 23vw, 120px);
 }
 
 
@@ -189,6 +187,16 @@ button.link {
     margin: 5px 20px;
     border: 2px solid #2E4052;
     box-shadow: 2px 2px 3px black;
+    font-size: 0.8em;
+}
+
+.basicDetail {
+    color: #F18F01;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    margin-left: -0.8em;
+    list-style-type:disc;
 }
 
 .certification .detailsBox, .skills .detailsBox{
