@@ -24,7 +24,8 @@ body {
     padding: 5px 0px;
     max-width: 1000px;
     min-width: 220px;
-    font-size: clamp(12px, 5vw, 18px);
+    font-size: clamp(19px, 3vw, 22px);
+    letter-spacing: 0.1ch;
 }
 
 /* HEADER */
@@ -34,7 +35,7 @@ header {
 }
 
 header img {
-    width: 120px;
+    width: 7em;
     border: 3px solid #2E4052;
     border-left: none;
     border-bottom-right-radius: 1.2rem;
@@ -47,6 +48,7 @@ header img {
     background-color: #2E4052;
     padding: 15px;
     color: #DCEDFF;
+    letter-spacing: 0.05ch;
     margin: 20px;
     margin-right: 0px;
     border-top-left-radius: 1.2rem;
@@ -84,7 +86,7 @@ header img {
 
 h1 {
     font-family: 'Comfortaa', cursive;
-    font-size: clamp(1.75rem, 10vw, 3.5rem);
+    font-size: 2.3em;
     text-shadow: 2px 2px 3px black;
     text-align: left;
     color: #F18F01;
@@ -94,7 +96,7 @@ h1 {
 
 h2 {
     font-family:  'Comfortaa', cursive;
-    font-size: clamp(20px, 7vw, 28px);
+    font-size: 1.6em;
     margin: 0;
     color: #DCEDFF;
 }
@@ -121,6 +123,8 @@ main section {
 button {
     background-color: #2E4052;
     font-family: 'Ubuntu', sans-serif;
+    font-size: 1em;
+    letter-spacing: 0.1ch;
     color: #c2f73b;
     cursor: pointer;
     border-radius: 10px;
@@ -128,7 +132,6 @@ button {
     margin: 10px 10px;
     padding: 5px 15px;
     display: inline-block;
-    font-size: clamp(12px, 4vw, 18px);
     -webkit-transition: background-color 0.2s ease-out, box-shadow 0.2s ease-out;
     -moz-transition: background-color 0.2s ease-out, box-shadow 0.2s ease-out;
     -o-transition: background-color 0.2s ease-out, box-shadow 0.2s ease-out;
@@ -140,7 +143,7 @@ button.link {
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     margin-left: -10px;
-    font-size: clamp(12px, 5vw, 18px);
+    /* font-size: clamp(12px, 5vw, 18px); */
     -webkit-transition: color 0.5s ease;
     -moz-transition: color 0.5s ease;
     -o-transition: color 0.5s ease;
@@ -169,7 +172,7 @@ button.link {
 /* MISC */
 
 .note {
-    font-size: 12px;
+    font-size: 0.8em;
     color: rgb(173, 173, 173);
     margin-top: 15px;
 }
@@ -180,21 +183,26 @@ button.link {
     margin: 5px;
     border: 2px solid #2E4052;
     box-shadow: 2px 2px 3px black;
-    font-size: 0.8em;
+    font-size: 0.9em;
     line-height: 1.3em;
 }
 
 .detailsBox ul {
     padding-inline-start: 15px;
+
 }
 
 .basicDetail {
     color: #F18F01;
     margin-top: 0px;
     margin-bottom: 10px;
-    font-size: 1.2em;
+    /* font-size: 1.1em; */
     margin-left: -0.8em;
     list-style-type:disc;
+}
+
+.detailsBox li {
+    margin-bottom: 10px;
 }
 
 .certification .detailsBox, .skills .detailsBox{
