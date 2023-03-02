@@ -188,6 +188,7 @@ button.link {
     border: 2px solid #2E4052;
     box-shadow: 2px 2px 3px black;
     font-size: 0.8em;
+    line-height: 1.3em;
 }
 
 .basicDetail {

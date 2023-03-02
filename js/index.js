@@ -7,6 +7,7 @@ function showOrHide(elementId) {
         document.getElementById(elementId).style.display = "block";
         document.getElementById(elementButton).style.backgroundColor = "#1e2a35";
         document.getElementById(elementButton).style.boxShadow = "1px 1px 2px black";
+        document.getElementById(elementButton).style.color = "#F18F01";
     }
     else {
         document.getElementById(elementButton).removeAttribute("style")
