@@ -117,11 +117,6 @@ main section {
     margin-top: 0px;
 }
 
-.main_list li {
-    margin: 5px -20px;
-}
-
-
 
 button {
     background-color: #2E4052;
@@ -144,6 +139,7 @@ button {
 button.link {
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
+    margin-left: -10px;
     font-size: clamp(12px, 5vw, 18px);
     -webkit-transition: color 0.5s ease;
     -moz-transition: color 0.5s ease;
@@ -180,15 +176,16 @@ button.link {
 
 .detailsBox {
     display: none;
-    background-color: #1b2530;
-    color: #EFF7FF;
-    padding: 30px;
-    border-radius: 15px;
-    margin: 5px 20px;
+    padding: 20px 35px;
+    margin: 5px;
     border: 2px solid #2E4052;
     box-shadow: 2px 2px 3px black;
     font-size: 0.8em;
     line-height: 1.3em;
+}
+
+.detailsBox ul {
+    padding-inline-start: 15px;
 }
 
 .basicDetail {
