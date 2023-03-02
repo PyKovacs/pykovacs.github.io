@@ -24,7 +24,7 @@ body {
     padding: 5px 0px;
     max-width: 1000px;
     min-width: 220px;
-    font-size: clamp(19px, 3vw, 22px);
+    font-size: clamp(15px, 2.5vw, 19px);
     letter-spacing: 0.1ch;
 }
 
@@ -196,7 +196,6 @@ button.link {
     color: #F18F01;
     margin-top: 0px;
     margin-bottom: 10px;
-    /* font-size: 1.1em; */
     margin-left: -0.8em;
     list-style-type:disc;
 }
@@ -270,6 +269,39 @@ a {
     }
 } */
 
+@media screen and (min-width: 600px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+    }
+
+    .work_experience {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .certification {
+        grid-column: 1;
+    }
+
+    .tech_skills {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .soft_skills {
+        grid-column: 2;
+    }
+
+    .lang {
+        grid-column: 2;
+    }
+
+    .education {
+        grid-column: 1;
+        grid-row: 4;
+    }
+}
 
 /* USE HOVER STYLES ONLY ON NON-TOUCH DEVICES */
 @media (hover: hover) and (pointer: fine) {
