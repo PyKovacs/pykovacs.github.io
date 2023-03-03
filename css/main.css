@@ -243,6 +243,8 @@ a {
 
     .sections {
         display: grid;
+        background:linear-gradient(#F18F01,#F18F01) center/4px 120% no-repeat;
+        background-position:24% 0;
         text-align: left;
         grid-template-columns: 1fr 3.2fr;
         row-gap: 20px;
@@ -319,6 +321,9 @@ a {
     .soft_skills{
         grid-column: 1;
         grid-row: 2;
+        font-size: 0.9em;
+        text-align: right;
+        margin-right: 15px;
     }
 
     .soft_skills .detailsBox {
@@ -328,11 +333,21 @@ a {
     .lang{
         grid-column: 1;
         grid-row: 1;
+        font-size: 0.9em;
+        text-align: right;
+        margin-right: 15px;
+    }
+
+    .lang ul {
+        list-style-type: none;
     }
 
     .education{
         grid-column: 1;
         grid-row: 3;
+        font-size: 0.9em;
+        text-align: right;
+        margin-right: 15px;
     }
 
     .main_list li {
@@ -345,6 +360,7 @@ a {
 
     button {
         font-size: 0.9em;
+        margin: 10px 7px;
     }
 
     .tech_skills button {
