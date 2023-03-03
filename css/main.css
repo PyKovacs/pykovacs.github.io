@@ -22,7 +22,7 @@ body {
     background-color: #1b2530;
     margin: 0px auto;
     padding: 5px 0px;
-    max-width: 1000px;
+    max-width: 900px;
     min-width: 220px;
     font-size: clamp(15px, 2.5vw, 19px);
     letter-spacing: 0.1ch;
@@ -106,7 +106,7 @@ h2 {
 main {
     margin: 10px;
 }
-main section {
+section {
     border-bottom-left-radius: 1rem;
     margin-top: 1rem;
     margin-bottom: 3.5rem;
@@ -270,36 +270,75 @@ a {
 } */
 
 @media screen and (min-width: 600px) {
-    main {
+    .sections {
         display: grid;
-        grid-template-columns: 1fr 1.5fr;
+        text-align: left;
+        grid-template-columns: 1fr 3fr;
     }
 
-    .work_experience {
+    .work_experience{
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .certification{
         grid-column: 1;
-        grid-row: 2;
+        grid-row: 3;
     }
-
-    .certification {
-        grid-column: 1;
-    }
-
-    .tech_skills {
+    
+    .tech_skills{
         grid-column: 2;
         grid-row: 2;
     }
 
-    .soft_skills {
-        grid-column: 2;
-    }
-
-    .lang {
-        grid-column: 2;
-    }
-
-    .education {
+    .soft_skills{
         grid-column: 1;
-        grid-row: 4;
+        grid-row: 2;
+    }
+
+    .lang{
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .education{
+        grid-column: 2;
+        grid-row: 3;
+    }
+
+
+    .work_experience,
+    .certification,
+    .tech_skills,
+    .soft_skills,
+    .lang,
+    .education
+    {
+        /* border: 1px solid #DCEDFF; */
+        /* display: inline; */
+        margin-bottom: 4rem;
+    }
+
+    .main_list li {
+        display: inline;
+    }
+
+
+    button {
+        font-size: 0.8em;
+    }
+
+    button.link {
+        border-radius: 10px;
+        border: none;
+        margin: 10px 10px;
+        padding: 5px 15px;
+        display: inline-block;
+        -webkit-transition: background-color 0.2s ease-out, box-shadow 0.2s ease-out;
+        -moz-transition: background-color 0.2s ease-out, box-shadow 0.2s ease-out;
+        -o-transition: background-color 0.2s ease-out, box-shadow 0.2s ease-out;
+        transition: background-color 0.2s ease-out, box-shadow 0.2s ease-out;
+        box-shadow: 3px 3px 4px black;
     }
 }
 
