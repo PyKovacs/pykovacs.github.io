@@ -24,7 +24,7 @@ body {
     padding: 5px 0px;
     max-width: 1130px;
     min-width: 220px;
-    font-size: clamp(15px, 2.5vw, 19px);
+    font-size: clamp(16px, 2.5vw, 19px);
     letter-spacing: 0.1ch;
 }
 
