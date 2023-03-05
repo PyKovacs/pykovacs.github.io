@@ -247,7 +247,7 @@ a {
         background-position:24% 0;
         text-align: left;
         grid-template-columns: 1fr 3.2fr;
-        row-gap: 20px;
+        row-gap: 30px;
         column-gap: 20px;
     }
 
@@ -360,7 +360,7 @@ a {
 
     button {
         font-size: 0.9em;
-        margin: 10px 7px;
+        margin: 15px 17px;
     }
 
     .tech_skills button {
