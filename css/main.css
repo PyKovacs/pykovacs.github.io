@@ -22,9 +22,9 @@ body {
     background-color: #1b2530;
     margin: 0px auto;
     padding: 5px 0px;
-    max-width: 1130px;
+    max-width: 800px;
     min-width: 220px;
-    font-size: clamp(16px, 2.5vw, 19px);
+    font-size: clamp(16px, 2vw, 16px);
     letter-spacing: 0.1ch;
 }
 
@@ -99,7 +99,12 @@ h2 {
     font-family:  'Comfortaa', cursive;
     font-size: 1.6em;
     margin: 0;
+    margin-bottom: 30px;
     color: #DCEDFF;
+}
+
+h3 {
+    color: #c2f73b;
 }
 
 /* MAIN */
@@ -118,6 +123,11 @@ section {
     padding-inline-start: 0px;
     list-style-type: none;
     margin-top: 0px;
+    line-height: 1.5rem;
+}
+
+.main_list > li {
+    margin-bottom: 70px;
 }
 
 
@@ -241,19 +251,38 @@ a {
         margin-bottom: 1.5rem;
     }
 
+    /* body * {
+        border: 1px dashed red;
+    } */
+
     .sections {
         display: grid;
-        background:linear-gradient(#F18F01,#F18F01) center/4px 120% no-repeat;
-        background-position:24% 0;
         text-align: left;
         grid-template-columns: 1fr 3.2fr;
-        row-gap: 30px;
-        column-gap: 20px;
+        grid-template-areas: 
+        "left right";
+        row-gap: 20px;
+        column-gap: 40px;
+        justify-content: space-between;
+    }
+
+    .left_col {
+        grid-area: left;
+        border-right: 4px solid #F18F01;
+        padding-right: 15px;
+    }
+
+    .right_col {
+        grid-area: right;
+    }
+
+    .left_col section, .right_col section {
+        margin-bottom: 5rem;
     }
 
     header {
         margin-left: auto;
-        margin-bottom: -60px;
+        margin-bottom: 0;
         display: grid;
         grid-template-columns: 1fr 5fr;
     }
@@ -270,6 +299,7 @@ a {
 
     h2 {
         font-size: 1.5em;
+        margin: 0;
     }
 
     header a {
@@ -287,7 +317,7 @@ a {
         display: inline;
         float: left;
         position: relative;
-        right:212px;
+        right:188px;
     }
 
     .contact {
@@ -303,39 +333,19 @@ a {
         bottom: 102px;
     }
 
-    .work_experience{
-        grid-column: 2;
-        grid-row: 1;
-    }
-
-    .certification{
-        grid-column: 2;
-        grid-row: 3;
-    }
  
-    .tech_skills{
-        grid-column: 2;
-        grid-row: 2;
-    }
-
     .soft_skills{
-        grid-column: 1;
-        grid-row: 2;
         font-size: 0.9em;
         text-align: right;
-        margin-right: 15px;
     }
 
-    .soft_skills .detailsBox {
+    .left_col .detailsBox {
         padding: 10px;
     }
 
     .lang{
-        grid-column: 1;
-        grid-row: 1;
         font-size: 0.9em;
         text-align: right;
-        margin-right: 15px;
     }
 
     .lang ul {
@@ -343,15 +353,8 @@ a {
     }
 
     .education{
-        grid-column: 1;
-        grid-row: 3;
         font-size: 0.9em;
         text-align: right;
-        margin-right: 15px;
-    }
-
-    .main_list li {
-        display: inline;
     }
 
     .main_list li .detailsBox ul li{
