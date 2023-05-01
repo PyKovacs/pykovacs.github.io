@@ -15,9 +15,6 @@ body {
     margin: 0px;
 }
 
-.envelope {
-    border-radius: 1.2rem;
-}
 .container {
     background-color: #1b2530;
     margin: 0px auto;
@@ -131,7 +128,7 @@ section {
     line-height: 1.5rem;
 }
 
-.main_list > li {
+.main_list > li:not(:last-of-type)  {
     margin-bottom: 70px;
 }
 
@@ -154,23 +151,6 @@ button {
     transition: background-color 0.2s ease-out, box-shadow 0.2s ease-out;
     box-shadow: 3px 3px 4px black;
 }
-
-button.link {
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-    margin-left: -10px;
-    -webkit-transition: color 0.5s ease;
-    -moz-transition: color 0.5s ease;
-    -o-transition: color 0.5s ease;
-    transition: color 0.5s ease;
-    -webkit-transition: background-color 0.2s ease-out, box-shadow 0.2s ease-out;
-    -moz-transition: background-color 0.2s ease-out, box-shadow 0.2s ease-out;
-    -o-transition: background-color 0.2s ease-out, box-shadow 0.2s ease-out;
-    transition: background-color 0.2s ease-out, box-shadow 0.2s ease-out;
-    box-shadow: 0px 3px 4px black;
-}
-
-
 
 .skillLevel {
     border-bottom: 2px solid #F18F01;
@@ -261,7 +241,7 @@ a {
     .sections {
         display: grid;
         text-align: left;
-        grid-template-columns: 1fr 3fr;
+        grid-template-columns: 1fr 2fr;
         grid-template-areas: 
         "left right";
         row-gap: 10px;
@@ -384,19 +364,6 @@ a {
         color: #DCEDFF;
     }
 
-    button.link {
-        border-radius: 10px;
-        border: none;
-        margin: 10px 10px;
-        padding: 5px 15px;
-        display: inline-block;
-        -webkit-transition: background-color 0.2s ease-out, box-shadow 0.2s ease-out;
-        -moz-transition: background-color 0.2s ease-out, box-shadow 0.2s ease-out;
-        -o-transition: background-color 0.2s ease-out, box-shadow 0.2s ease-out;
-        transition: background-color 0.2s ease-out, box-shadow 0.2s ease-out;
-        box-shadow: 3px 3px 4px black;
-    }
-
     p.large_screen {
         font-size: 0.8em;
         margin-top: 10px;
@@ -426,6 +393,4 @@ a {
     button.link:hover {
         box-shadow: 0px 5px 5px black;
     }
-
-
   }
