@@ -1334,6 +1334,10 @@ select.form-control {
     max-width: none;
     margin: 0;
   }
+
+  .name {
+  color: var(--color-gray-200);
+  }
   
   .header {
     background: var(--color-slate-900) !important;
