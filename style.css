@@ -784,6 +784,7 @@ select.form-control {
 }
 
 .name {
+  color: var(--color-gray-200);
   font-size: 3rem;
   font-weight: var(--font-weight-bold);
   margin: 0;
